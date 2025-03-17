@@ -1,0 +1,41 @@
+[
+  {
+    "id": "panel_1",
+    "component": "map",
+    "title": "Map",
+    "minimumWidth": 100,
+    "tabComponent": "default"
+  },
+  {
+    "id": "panel_2",
+    "component": "action",
+    "title": "Action",
+    "position": { "referencePanel": "panel_1" },
+    "inactive": true,
+    "minimumWidth": 100,
+    "tabComponent": "default"
+  },
+  {
+    "id": "panel_3",
+    "component": "gant",
+    "title": "Gant",
+    "position": { "referencePanel": "panel_1", "direction": "right" },
+    "minimumWidth": 100
+  },
+  {
+    "id": "panel_4",
+    "component": "kanban",
+    "title": "Kanban",
+    "position": { "referencePanel": "panel_3" },
+    "inactive": true,
+    "minimumWidth": 100
+  },
+  {
+    "id": "panel_5",
+    "component": "list",
+    "title": "List",
+    "position": { "referencePanel": "panel_3", "direction": "below" },
+    "minimumWidth": 100,
+    "tabComponent": "floatable"
+  }
+]
